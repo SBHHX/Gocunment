@@ -1,0 +1,14 @@
+server:
+  port: :8080
+  mode: debug
+
+database:
+  dsn: "root:cyhdeqq,201496@tcp(localhost:3306)/gocument?charset=utf8mb4&parseTime=True&loc=Local"
+
+storage:
+  root_dir: "./documents"
+  temp_dir: "./temp"
+
+jwt:
+  secret: "your-secret-key"
+  expires_in: 86400 # 24小时
